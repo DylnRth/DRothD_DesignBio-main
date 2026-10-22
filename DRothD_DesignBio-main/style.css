@@ -1,0 +1,29 @@
+.theNav {
+    background-color: burlywood;
+    padding: 1.5rem;
+    padding-right: 1rem;
+    width: 100vw;
+}
+
+
+
+@keyframes nfade {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.navFade {
+    animation: nfade 3s ease-in-out;
+}
